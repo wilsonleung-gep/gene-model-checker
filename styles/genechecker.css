@@ -1,0 +1,204 @@
+#north {
+    background-color: #990000;
+}
+
+#north h1 {
+    font-size: 108%;
+    color: #eee;
+    font-weight: normal;
+    margin-top: 2px;
+}
+
+#south {
+    padding: 0.5em;
+    font-size: 86%;
+}
+
+#loading-mask{
+	position:absolute;
+	left:0;
+	top:0;
+    width:100%;
+    height:100%;
+    z-index:20000;
+    background-color:#BEBEBE;
+}
+
+#loading{
+	position:absolute;
+	left:33%;
+	top:40%;
+	z-index:20001;
+	width: 33%;
+	height: auto;
+	padding-top: 1em;
+	vertical-align: middle;
+}
+
+#loading .loading-indicator{
+	background: #ededed;
+	color:#555;
+	font:bold 13px tahoma,arial,helvetica;
+	padding:10px;
+	margin:0;
+    text-align:center;
+    height:auto;
+}
+
+#loading-img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  float: left;
+  vertical-align: top;
+}
+
+#loading-msg {
+  font: normal 10px arial,tahoma,sans-serif;
+}
+
+.combo-label,
+.combotrname {
+  font-size: 93%;
+  width: 150px;
+}
+
+.combo-details,
+.combofbid {
+  font-size: 93%;
+  color: green;
+  text-align: right;
+}
+
+.icon-expand-all {
+  background-image: url(../images/expand-all.gif) !important;
+}
+
+.icon-collapse-all {
+  background-image: url(../images/collapse-all.gif) !important;
+}
+
+.x-layout-collapsed-west {
+  background:  #eee url(../images/config-model-title_rt_bg.gif) no-repeat center;
+}
+
+.zoom-icon-loading {
+    background:transparent url(../images/loading.gif) no-repeat scroll 0 0;
+    float:left;
+    height:15px;
+    width:15px;
+    margin-left:5px;
+    overflow:hidden;
+}
+
+.zoom-icon {
+    background:transparent url(../images/magnifying_glass_small.png) no-repeat scroll 0 0;
+    cursor:pointer;
+    float:left;
+    height:15px;
+    width:15px;
+    margin-left:5px;
+    overflow:hidden;
+}
+
+.rowexpand {
+    padding: 0.5em 1em;
+}
+
+#dpimage {
+    height: 600px;
+    width: 600px;
+}
+
+#dotplotpanel {
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+
+#downloadpanel {
+    padding: 0.5em;
+}
+
+#downloadpanel ul li {
+    margin: 0.3em;
+}
+
+.seqpos {
+    padding-right: 0.5em;
+}
+
+.seqtable {
+    background-color: #eee9e9;
+    padding: 0.5em;
+}
+
+.displayseq pre {
+  background-color: #FFF;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.surroundbase {
+    color: #000080;
+}
+
+.highlightbase {
+    color: #F00;
+}
+
+.Failstatus,
+.Passstatus,
+.Warnstatus {
+    padding-left: 15px;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    font-size: 108%;
+    line-height: 14px;
+}
+
+.Failstatus {
+    color: red;
+    background-position: 0px -14px;
+    background-image: url(../images/checkliststatus.png);
+}
+
+.Passstatus {
+    color: green;
+    background-position: 0px 0px;
+    background-image: url(../images/checkliststatus.png);
+}
+
+.Warnstatus {
+    background-position: 0px -27px;
+    background-image: url(../images/checkliststatus.png);
+    color: #FF8C00;
+}
+
+.Skipstatus {
+    color: gray;
+}
+
+.x-grid3-row td,.x-grid3-summary-row td{
+    -ms-user-select: text !important;
+    -moz-user-select: text !important;
+    -webkit-user-select: text !important;
+    user-select: text !important;
+
+}
+
+.x-selectable, .x-selectable * {
+    -ms-user-select: text !important;
+    -moz-user-select: text !important;
+    -webkit-user-select: text !important;
+    user-select: text !important;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 10px;
+    padding-right: 5px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gene Model Checker (Version 2.0)</title>
+    <link href='./lib/ext/resources/css/ext-all.css' rel='stylesheet' type='text/css'>
+    <link href="./styles/app-genechecker.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="loading-mask"></div>
+    <div id="loading">
+    <div class="loading-indicator">
+      <img id="loading-img" alt="loading image" src="./images/large-loading.gif">
+      Gene Model Checker<br>
+      <span id="loading-msg">Loading Images and Core Components...</span>
+    </div>
+    </div>
+
+    <div id="north">
+      <div class="logo-container">
+        <img src="images/GEP_logo.png" alt="GEP Logo" class="logo"/>
+        <h1>Gene Model Checker</h1>
+      </div>
+    </div>
+
+    <div id="west"></div>
+
+    <div id="checklist"></div>
+    <div id="dotplotpanel"></div>
+    <div id="transcriptpanel"></div>
+    <div id="peptidepanel"></div>
+    <div id="splitpanel"></div>
+    <div id="downloadpanel"></div>
+
+    <div id="south">
+        <p>External Links:
+        | <a href='https://thegep.org'>GEP Home Page</a> |
+          <a href="https://community.gep.wustl.edu/repository/documentations/Gene_Model_Checker_User_Guide.pdf">User Guide</a> |
+        </p>
+    </div>
+
+    <script src="./lib/ext/adapter/ext/ext-base.js"></script>
+    <script src="./lib/ext/ext-all.js"></script>
+    <script src="./lib/miframe.js"></script>
+    <script src="./scripts/app-genechecker-min.js"></script>
+  </body>
+</html>
+

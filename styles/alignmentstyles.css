@@ -1,0 +1,33 @@
+h1 { font-size: 138.5%; }
+
+.qcolor0 { color: #000; background-color: #f4a460; }
+
+.qcolor1 { color: #FFF; background-color: #ff3030; }
+
+.tcolor0 { color: #000; background-color: #b0e2ff; }
+
+.tcolor1 { color: #FFF; background-color: #00688b; }
+
+.match { color: black; }
+
+.navmenu-links {
+    padding: 0 0 1em 0;
+}
+
+.navmenu-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navmenu-links ul li {
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
